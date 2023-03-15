@@ -4,7 +4,7 @@ var box3 = document.querySelector(".box-3");
 
 document.addEventListener("keydown", function (e) {
   // console.log(e.key);
-  // var key = e.key;
+  var key = e.key;
   if (e.key === "1") {
     box1.innerText = "🤖";
   } else if (e.key === "2") {
